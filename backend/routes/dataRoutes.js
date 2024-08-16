@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
-const {getSoilMoisureData, setSoilMoisureData} = require('../controllers/dataController')
+const {getSoilMoistureData, setSoilMoistureData} = require('../controllers/dataController')
 
-router.route('/').get(getSoilMoisureData).post(setSoilMoisureData)
+router.route('/').get(getSoilMoistureData).post(setSoilMoistureData)
 
 //router.get('/', getSoilMoisureData)
 
